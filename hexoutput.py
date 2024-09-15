@@ -3,6 +3,6 @@ def hex_output():
     hexnum = input('Enter hex number to convert: ')
     for power, digit in enumerate(reversed(hexnum)):
         decnum += int(digit, 16) * (16 ** power)
-    print decnum
+    print(decnum)
 
 hex_output()
